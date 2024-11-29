@@ -1,0 +1,81 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/advent1.jpg") no-repeat center center / cover;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    /* border: 5px dashed rgb(153, 164, 160);
+            border-radius: 10px; */
+    color: #fff;
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+}
+
+dialog {
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+dialog img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+dialog p {
+    margin: 15px 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+dialog a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+dialog a:hover {
+    background-color: #0056b3;
+}
+
+dialog button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+dialog button:hover {
+    background-color: #999;
+}
