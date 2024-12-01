@@ -22,6 +22,8 @@ window.addEventListener("load", (event) => {
       modalDialogLink.href = dayItem[0].link;
       modalDialogLink.textContent = "Dagens lucka";
       modalDialogP.textContent = dayItem[0].message;
+      currentIndex = (currentIndex + 1) % images.length;
+      dynamicImage.src = images[currentIndex];
     }
   } else if (currentDate.getCurrentMonth() == "December" && currentDate.getCurrentDay() > "24") {
     updateButton.innerHTML = "🖕😘";
