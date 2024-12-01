@@ -2,7 +2,7 @@ export const dayItems = [
   {
     day: "1",
     link: "https://open.spotify.com/track/1prZ0pr6XoRCxcrC3MCL0M?si=81718b3d1da14999",
-    message: "Älskar dig!",
+    message: "Älskar dig! ♥️",
   },
   {
     day: "2",
