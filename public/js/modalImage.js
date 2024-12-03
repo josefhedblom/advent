@@ -14,7 +14,7 @@ let currentIndex = 0;
 let currentDate = new Date();
 
 window.addEventListener("load", (event) => {
-  if (currentDate.getCurrentMonth() == "December" && currentDate.getCurrentDay() <= "24") {
+  if (currentDate.getCurrentMonth() == "December" && currentDate.getCurrentDay() <= 24) {
     calenderDay.innerHTML = currentDate.getCurrentDay();
 
     const dayItem = dayItems.filter((item) => item.day == currentDate.getCurrentDay());
@@ -26,7 +26,7 @@ window.addEventListener("load", (event) => {
       currentIndex = (currentIndex + 1) % images.length;
       modalImg.src = images[currentIndex];
     }
-  } else if (currentDate.getCurrentMonth() == "December" && currentDate.getCurrentDay() > "24") {
+  } else if (currentDate.getCurrentMonth() == "December" && currentDate.getCurrentDay() > 24) {
     calenderDay.innerHTML = "🖕😘";
     calenderDay.style.fontSize = "100px";
   }
